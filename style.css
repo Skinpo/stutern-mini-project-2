@@ -1,0 +1,139 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: montserrat, serif;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.bg_image {
+    width: 100%;
+    min-height: 813px;
+}
+
+.content {
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.7em;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    flex: 2;
+}
+
+.nav {
+    margin-right: 15px;
+}
+
+.nav ul {
+    display: flex;
+    margin-top: 30px;
+}
+
+.nav li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.9em;
+}
+
+.menu_btn {
+    background-color: red;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    padding: 5px 30px;
+    height: 40px;
+    margin-top: 20px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.menu_btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.9em;
+}
+
+.header_content {
+    position: relative;
+    margin-top: -620px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.center {
+    margin: auto;
+    width: 75%;
+}
+
+.header_content img {
+    width: 550px;
+}
+
+.header_details {
+    margin-top: 50px;
+    max-width: 400px;
+}
+
+.header_details h4 {
+    font-size: 0.8em;
+    font-weight: 400;
+    color: red;
+    font-family: poppins, serif;
+}
+
+.header_details h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.5em;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.header_details p {
+    font-size: 0.8em;
+    font-weight: 300;
+    margin-top: 0px;
+}
+
+.header_details button {
+    width: 130px;
+    height: 40px;
+    margin-right: 10px;
+    margin-top: 20px;
+    border: 0.05em solid #b1b3b6;
+    border-radius: 5px;
+    background-color: #dcddde;
+}
+
+.header_details button a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+.header_details button:hover {
+    background-color: red;
+}
+
+.header_details a:hover {
+    color: white;
+    font-weight: 700;
+}
